@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useCallback, CSSProperties, FormEvent } from "react";
-
+import { useState, useEffect, useCallback } from "react";
+import type { CSSProperties, FormEvent } from "react";
 // ---------------------------------------------------------------------------
 // Types - mirror the backend's Pydantic schemas (app/schemas.py) and enums
 // (app/models.py) exactly, so a backend contract change surfaces here as a
