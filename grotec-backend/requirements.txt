@@ -2,8 +2,8 @@ fastapi
 uvicorn[standard]
 sqlalchemy
 pydantic
-passlib[bcrypt==4.0.1]
-bcrypt
+passlib[bcrypt]
+bcrypt==4.0.1
 python-jose[cryptography]
 python-multipart
 pytest
